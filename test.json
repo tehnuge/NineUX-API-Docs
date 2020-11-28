@@ -2,8 +2,27 @@
   "id": 18,
   "testtype": "M",
   "question_set": [
-    { "id": 41, "text": "what did you think of the site?" },
-    { "id": 43, "text": "How can we improve the site experience?" }
+    {
+      "id": 41,
+      "questiontype": "T",
+      "text": "what did you think of the site?",
+      "answer_set": []
+    },
+    {
+      "id": 43,
+      "questiontype": "S",
+      "text": "How can we improve the site experience?",
+      "answer_set": [
+        {
+          "id": 1,
+          "value": "Change the layout"
+        },
+        {
+          "id": 2,
+          "value": "Add pictures"
+        }
+      ]
+    }
   ],
   "status": "O",
   "study": 2,
